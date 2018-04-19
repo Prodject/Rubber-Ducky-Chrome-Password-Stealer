@@ -11,7 +11,7 @@ This is a improved version of the [Password Stealer](https://github.com/Nuk3leus
 * Adjust the URI, username and password in the python script 
 * [Compile](http://www.pyinstaller.org/) the python script to an executable
 * Upload the executable and adjust the payload
-* Deploy the payload to youre duck
+* Deploy the payload to your duck
 
 ### Disclaimer
 
